@@ -10,7 +10,12 @@ The codes and answers in this project were written by Sebastian Weiermann [sebas
 
 The codes / answers are for use withing this course only and should not be copied or reproduced.
 
-# Setup
+# Installation & Setup
+
+To clone this repository use
+```shell
+git clone https://github.com/sebastian-weiermann/TP2.git
+```
 
 The code uses conda to manage virtual environments. To run the code and notebooks run
 ```shell
@@ -18,3 +23,8 @@ conda create -f env/Lab2_env.yml
 conda activate Lab2
 ```
 Then you should be able to run the notebooks (after selecting the correct environment as interpreter).
+The notebooks should works with both Jupyter Notebook and VS Code.
+
+# Structure
+The repository is divided into several folders named after the kind of files they contain.
+This means `notebooks/` contains Python notebooks, `src` contains `.py` files, etc.
